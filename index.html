@@ -4,71 +4,55 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>SDO</title>
-<meta name="description" content="SDO makes small, private iOS apps. Your data stays on your device." />
+<meta name="description" content="Apps by SDO: Pillars and Gridiron IQ." />
 <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
-<div class="topbar">
-  <div class="topbar-inner">
-    <a class="wordmark" href="#top">SDO</a>
-    <nav class="primary-nav">
-      <a href="#apps">Apps</a>
-      <a href="#contact">Contact</a>
-      <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
-      </button>
-    </nav>
-  </div>
-</div>
+<main class="wrap apps-page">
+  <header class="apps-header">
+    <span class="wordmark">SDO</span>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+    </button>
+  </header>
 
-<main id="top">
-  <div class="wrap hero">
-    <h1>SDO</h1>
-    <p class="lede">
-      Small, private iOS apps. No accounts, no tracking, and your data stays on your device.
-    </p>
-  </div>
-
-  <section id="apps">
-    <div class="wrap">
-      <h2>Apps</h2>
-
-      <div class="projects-grid">
-        <div class="project-card">
-          <div class="project-head">
-            <h3>Pillars</h3>
-            <span class="status-tag">TestFlight</span>
-          </div>
-          <p class="project-tagline">Sleep, food, and workouts in one place</p>
-          <p class="desc">
-            Pillars brings in the workouts and sleep your Apple Watch already tracks, lets you log meals and
-            symptoms, and shows how they connect. Everything stays on your iPhone. Insights use Apple
-            Intelligence on the device, never a server.
-          </p>
-          <div class="project-links">
-            <a href="pillars/privacy/">Privacy Policy</a>
-            <a href="pillars/terms/">Terms of Use</a>
-          </div>
+  <ul class="app-list">
+    <li class="app-row">
+      <img class="app-icon" src="assets/img/pillars-icon.png" alt="Pillars app icon" width="72" height="72" />
+      <div class="app-body">
+        <div class="app-title">
+          <h2>Pillars</h2>
+          <span class="status-tag">TestFlight</span>
         </div>
+        <p>Sleep, food, and workouts in one place. Brings in what your Apple Watch tracks, lets you log meals and symptoms, and shows how they connect. Private and on-device.</p>
+        <p class="app-links">
+          <a href="pillars/privacy/">Privacy Policy</a>
+          <span aria-hidden="true">·</span>
+          <a href="pillars/terms/">Terms of Use</a>
+        </p>
       </div>
-    </div>
-  </section>
+    </li>
 
-  <section id="contact" class="contact-section">
-    <div class="wrap">
-      <h2>Contact</h2>
-      <p>Questions, feedback, or support for any SDO app.</p>
-      <div class="link-row">
-        <a class="pill primary" href="mailto:sebiolmos19@gmail.com">sebiolmos19@gmail.com</a>
+    <li class="app-row">
+      <img class="app-icon" src="assets/img/gridiron-iq-icon.png" alt="Gridiron IQ app icon" width="72" height="72" />
+      <div class="app-body">
+        <div class="app-title">
+          <h2>Gridiron IQ</h2>
+          <span class="status-tag">Beta</span>
+        </div>
+        <p>A fantasy football helper for full-PPR ESPN leagues. Start/sit, waiver, matchup, and trade advice with reasons you can read.</p>
+        <p class="app-links">
+          <a href="https://fantasyfootballoptimizer-kappa.vercel.app" target="_blank" rel="noopener">Open Gridiron IQ</a>
+        </p>
       </div>
-    </div>
-  </section>
+    </li>
+  </ul>
 </main>
 
 <footer>
   <div class="wrap">
-    <span>© <span data-year>2026</span> SDO</span>
+    <span>© <span data-year>2026</span> SDO · <a href="mailto:sebiolmos19@gmail.com">sebiolmos19@gmail.com</a></span>
   </div>
 </footer>
 

@@ -4,13 +4,35 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Privacy Policy · Pillars</title>
-<link rel="stylesheet" href="../../assets/css/style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../../assets/css/home.css" />
 </head>
-<body>
-<main class="wrap legal">
-  <a class="back" href="../../">← SDO apps</a>
-  <h1>Privacy Policy</h1>
-  <p class="effective">Pillars is an iOS app by SDO. Effective date: 11 October 2026.</p>
+<body class="home">
+<div class="shell legal-shell">
+  <div class="bar">
+    <a class="tag-mono back-link" href="../../">← SDO</a>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+    </button>
+  </div>
+
+  <header class="legal-head">
+    <img class="app-icon" src="../../assets/img/pillars-icon.png" alt="Pillars app icon" width="64" height="64" />
+    <div>
+      <span class="tag-mono">Pillars · Legal</span>
+      <h1>Privacy Policy</h1>
+      <p class="tag-mono">Effective 11 October 2026 · An iOS app by SDO</p>
+    </div>
+  </header>
+
+  <nav class="doc-tabs" aria-label="Pillars legal pages">
+      <a href="../privacy/" aria-current="page">Privacy Policy</a>
+      <a href="../terms/">Terms of Use</a>
+    </nav>
+
+  <article class="doc pillars">
 
   <p>This page describes what Pillars does with your information.</p>
 
@@ -84,8 +106,13 @@
   <h2>Contact</h2>
   <p>SDO (Sebastian Olmos)<br /><a href="mailto:sebiolmos19@gmail.com">sebiolmos19@gmail.com</a></p>
   <p>You can also reach the developer through App Store support.</p>
+  </article>
 
-  <p>See also: <a href="../terms/">Terms of Use</a>.</p>
-</main>
+  <footer class="foot">
+    <span class="tag-mono">© <span data-year>2026</span> SDO</span>
+    <span class="tag-mono"><a href="mailto:sebiolmos19@gmail.com">sebiolmos19@gmail.com</a></span>
+  </footer>
+</div>
+<script src="../../assets/js/main.js"></script>
 </body>
 </html>

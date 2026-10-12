@@ -84,6 +84,7 @@ body.home {
 .app:hover, .app:focus-within { transform: rotate(0deg) translate(-3px, -3px); box-shadow: 9px 9px 0 var(--accent); }
 .app.pillars { --accent: #0f2a44; }
 .app.gridiron { --accent: #9b3cf0; }
+.app.redox { --accent: #d1495b; }
 :root[data-theme="dark"] .app.pillars { --accent: #6f8fb0; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .app.pillars { --accent: #6f8fb0; } }
 

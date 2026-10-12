@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Resume Redox icon">
+  <rect width="256" height="256" fill="#f7efe4"/>
+  <!-- back page -->
+  <rect x="74" y="44" width="122" height="160" rx="12" fill="#e9d8c4" transform="rotate(8 135 124)"/>
+  <!-- front page -->
+  <rect x="60" y="52" width="122" height="160" rx="12" fill="#ffffff" stroke="#16140f" stroke-width="8"/>
+  <rect x="80" y="78" width="54" height="10" rx="5" fill="#16140f"/>
+  <rect x="80" y="102" width="82" height="7" rx="3.5" fill="#b9ad9c"/>
+  <rect x="80" y="120" width="70" height="7" rx="3.5" fill="#b9ad9c"/>
+  <rect x="80" y="138" width="78" height="7" rx="3.5" fill="#b9ad9c"/>
+  <rect x="80" y="156" width="52" height="7" rx="3.5" fill="#b9ad9c"/>
+  <!-- redox badge -->
+  <circle cx="178" cy="182" r="40" fill="#d1495b" stroke="#16140f" stroke-width="8"/>
+  <text x="178" y="196" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="800" font-size="38" fill="#ffffff">RR</text>
+</svg>

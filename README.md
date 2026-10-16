@@ -1,4 +1,4 @@
-# SDO
+# Afield Studio
 
 Company site and app legal pages, hosted on GitHub Pages.
 

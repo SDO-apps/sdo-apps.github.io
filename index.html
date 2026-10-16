@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Afield Studio</title>
-<meta name="description" content="Afield Studio is an independent product studio building iOS apps, web apps, and useful experiments: Pillars, Gridiron IQ, and Resume Redox." />
+<title>Afield Studio · Independent product studio</title>
+<meta name="description" content="Afield Studio is an independent product studio building thoughtful iOS apps, AI tools, and web products, including Pillars, Gridiron IQ, and Resume Redox." />
 <meta name="theme-color" content="#f3efe6" media="(prefers-color-scheme: light)" />
 <meta name="theme-color" content="#0f1d27" media="(prefers-color-scheme: dark)" />
 <meta property="og:title" content="Afield Studio" />
-<meta property="og:description" content="An independent product studio building useful software." />
+<meta property="og:description" content="Small beginnings. Useful things. An independent studio building thoughtful apps, AI tools, and web products." />
 <meta property="og:image" content="https://afield-studio.github.io/assets/img/afield-icon.png" />
 <link rel="icon" href="favicon.svg" type="image/svg+xml" />
 <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -36,134 +36,101 @@
 
 <main id="main">
   <section class="hero wrap" aria-labelledby="hero-title">
-    <span class="label">Independent product studio · Est. 2026</span>
-    <h1 id="hero-title">Building <em>useful</em> software, one small product at a time.</h1>
-    <div class="hero-foot">
-      <p>Afield Studio makes <strong>iOS apps, web applications, and AI-assisted tools</strong> with a clear purpose: to help people understand their lives, save time, and get things done.</p>
-      <ul class="disciplines" aria-label="What the studio builds">
-        <li>iOS</li>
-        <li>Web</li>
-        <li>AI</li>
-        <li>Experiments</li>
-      </ul>
+    <span class="label">Independent product studio</span>
+    <h1 id="hero-title"><span>Small beginnings.</span> <em>Useful things.</em></h1>
+    <p class="hero-lede">Afield Studio is an independent studio exploring ideas and building thoughtful apps, AI tools, and web products that make everyday life a little better.</p>
+    <div class="actions">
+      <a class="btn" href="#work">Explore the work</a>
+      <a class="text-link" href="https://github.com/afield-studio" rel="noopener"><span class="ext">Visit GitHub</span></a>
     </div>
   </section>
 
   <section class="section" id="work" aria-labelledby="work-title">
     <div class="wrap">
-      <div class="section-head">
+      <div class="section-head reveal">
         <span class="label">Selected work</span>
         <div>
-          <h2 id="work-title">Products on the bench</h2>
-          <p>Each one started with a real, everyday problem and is still being improved.</p>
+          <h2 id="work-title">On the workbench</h2>
+          <p>Products across personal wellness, sports, and productivity, each built around one everyday problem.</p>
         </div>
       </div>
 
-      <ol class="work">
-        <li class="project" id="pillars">
-          <div class="project-id">
-            <img class="project-icon" src="assets/img/pillars-icon.png" alt="Pillars app icon" width="72" height="72" />
-            <div>
-              <span class="project-num">01</span>
-              <h3>Pillars</h3>
-            </div>
+      <article class="feature reveal" id="pillars" aria-labelledby="pillars-title">
+        <div class="feature-visual">
+          <img src="assets/img/pillars-icon.png" alt="Pillars app icon" width="128" height="128" />
+          <span class="feature-caption">iOS app</span>
+        </div>
+        <div class="feature-body">
+          <div class="project-top">
+            <span class="category">Personal wellness</span>
+            <span class="status">TestFlight</span>
           </div>
-          <div class="project-body">
-            <div>
-              <p>Sleep, food, and workouts in one place. Pillars pulls in what your Apple Watch tracks, lets you log meals and symptoms, and shows how they connect. Private and on-device.</p>
-              <dl class="meta">
-                <dt>Platform</dt><dd>iOS app</dd>
-                <dt>Area</dt><dd>Health</dd>
-                <dt>Status</dt><dd class="status">In TestFlight</dd>
-              </dl>
-            </div>
-            <ul class="project-links">
-              <li><a href="pillars/privacy/">Privacy Policy</a></li>
-              <li><a href="pillars/terms/">Terms of Use</a></li>
-            </ul>
-          </div>
-        </li>
+          <h3 id="pillars-title">Pillars</h3>
+          <p class="project-desc">Sleep, food, and workouts in one place. Pillars brings in your Apple Watch data, lets you log meals and symptoms, and helps you see how your habits connect.</p>
+          <ul class="facts" aria-label="Privacy at a glance">
+            <li><strong>On your iPhone.</strong> No account and no servers; your data stays on the device.</li>
+            <li><strong>On-device insights.</strong> Patterns are found with Apple Intelligence on your iPhone, not sent to an AI company.</li>
+            <li><strong>Read-only Health.</strong> Pillars reads Apple Health and never writes to it.</li>
+          </ul>
+          <ul class="project-links">
+            <li><a href="pillars/privacy/">Privacy Policy</a></li>
+            <li><a href="pillars/terms/">Terms of Use</a></li>
+          </ul>
+        </div>
+      </article>
 
-        <li class="project" id="gridiron-iq">
-          <div class="project-id">
-            <img class="project-icon" src="assets/img/gridiron-iq-icon.png" alt="Gridiron IQ app icon" width="72" height="72" />
-            <div>
-              <span class="project-num">02</span>
-              <h3>Gridiron IQ</h3>
-            </div>
+      <div class="supporting">
+        <article class="project gridiron reveal" id="gridiron-iq" aria-labelledby="gridiron-title">
+          <img class="project-icon" src="assets/img/gridiron-iq-icon.png" alt="Gridiron IQ app icon" width="64" height="64" />
+          <div class="project-top">
+            <span class="category">Fantasy football</span>
+            <span class="status">Beta</span>
           </div>
-          <div class="project-body">
-            <div>
-              <p>A fantasy football sidekick for full-PPR ESPN leagues. Start/sit, waiver, matchup, and trade calls, each with reasons you can actually read.</p>
-              <dl class="meta">
-                <dt>Platform</dt><dd>Web app</dd>
-                <dt>Area</dt><dd>Sports</dd>
-                <dt>Status</dt><dd class="status">Beta</dd>
-              </dl>
-            </div>
-            <ul class="project-links">
-              <li><a href="https://fantasyfootballoptimizer-kappa.vercel.app" rel="noopener"><span class="ext">Open Gridiron IQ</span></a></li>
-            </ul>
-          </div>
-        </li>
+          <h3 id="gridiron-title">Gridiron IQ</h3>
+          <p class="project-desc">A fantasy football sidekick for full-PPR ESPN leagues. Start/sit, waiver, matchup, and trade recommendations, each with reasoning you can actually follow.</p>
+          <ul class="project-links">
+            <li><a href="https://fantasyfootballoptimizer-kappa.vercel.app" rel="noopener"><span class="ext">Open Gridiron IQ</span></a></li>
+          </ul>
+        </article>
 
-        <li class="project" id="resume-redox">
-          <div class="project-id">
-            <img class="project-icon" src="assets/img/resume-redox-icon.svg" alt="Resume Redox app icon" width="72" height="72" />
-            <div>
-              <span class="project-num">03</span>
-              <h3>Resume Redox</h3>
-            </div>
+        <article class="project redox reveal" id="resume-redox" aria-labelledby="redox-title">
+          <img class="project-icon" src="assets/img/resume-redox-icon.svg" alt="Resume Redox app icon" width="64" height="64" />
+          <div class="project-top">
+            <span class="category">Career and productivity</span>
+            <span class="status live">Live</span>
           </div>
-          <div class="project-body">
-            <div>
-              <p>A resume builder that keeps a version per role. Edit once, see a live ATS-friendly preview, and export a PDF that matches what's on screen.</p>
-              <dl class="meta">
-                <dt>Platform</dt><dd>Web app</dd>
-                <dt>Area</dt><dd>Careers</dd>
-                <dt>Status</dt><dd class="status live">Live</dd>
-              </dl>
-            </div>
-            <ul class="project-links">
-              <li><a href="https://resume-redox.vercel.app" rel="noopener"><span class="ext">Open Resume Redox</span></a></li>
-              <li><a href="https://github.com/solmos1900/Resume-Redox" rel="noopener"><span class="ext">Source code</span></a></li>
-            </ul>
-          </div>
-        </li>
-      </ol>
+          <h3 id="redox-title">Resume Redox</h3>
+          <p class="project-desc">A resume builder that keeps a tailored version for every role. Edit once, preview an ATS-friendly resume as you go, and export a PDF that matches the screen.</p>
+          <ul class="project-links">
+            <li><a href="https://resume-redox.vercel.app" rel="noopener"><span class="ext">Open Resume Redox</span></a></li>
+            <li><a href="https://github.com/solmos1900/Resume-Redox" rel="noopener"><span class="ext">Source code</span></a></li>
+          </ul>
+        </article>
+      </div>
     </div>
   </section>
 
   <section class="section about" id="about" aria-labelledby="about-title">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="label">About</span>
-        <div>
-          <h2 id="about-title">Small beginnings.</h2>
-        </div>
+    <div class="wrap about-grid reveal">
+      <span class="label">About</span>
+      <div>
+        <h2 id="about-title">Good products don't need to do everything. They need to do the right things well.</h2>
+        <p>Afield Studio is a place to explore ideas, make thoughtful tools, and turn small beginnings into things people can genuinely use. Sebastian Olmos runs the studio, making apps for the things worth caring about day to day.</p>
+        <p>The work favors clarity over complexity and steady improvement over big launches: ship something small and honest, then keep showing up to make it better.</p>
       </div>
-      <div class="about-body">
-        <div class="about-copy">
-          <p class="about-lede">Afield Studio is an independent studio started by Sebastian Olmos to explore ideas and turn the useful ones into real products.</p>
-          <p>Most things worth making start small: a question, a rough first version, and the habit of coming back to improve it. Each product here began with a specific, everyday problem, like making sense of your sleep, setting a lineup, or tailoring a resume, and tries to solve it simply and honestly.</p>
-        </div>
-      </div>
-      <ul class="principles">
-        <li><h3>Curiosity over assumptions</h3><p>Start with a real question and let what you learn shape the product.</p></li>
-        <li><h3>Clarity over complexity</h3><p>A clear purpose, a clean interface, nothing that doesn't earn its place.</p></li>
-        <li><h3>Consistency over comparison</h3><p>Keep showing up. Steady improvement beats a big launch.</p></li>
-        <li><h3>Useful over hype</h3><p>Measure success by whether it helps someone, not by how it sounds.</p></li>
-      </ul>
     </div>
   </section>
 
-  <section class="section" id="contact" aria-labelledby="contact-title">
-    <div class="wrap contact">
-      <span class="label">Contact</span>
+  <section class="section closing" id="contact" aria-labelledby="closing-title">
+    <div class="wrap closing-grid reveal">
+      <span class="label">Follow along</span>
       <div>
-        <h2 id="contact-title">Say hello.</h2>
-        <p>Questions about an app, feedback, or an idea worth exploring. Email is the best way to reach the studio.</p>
-        <a class="mail" href="mailto:sebiolmos19@gmail.com">sebiolmos19@gmail.com</a>
+        <h2 id="closing-title">There's more to explore.</h2>
+        <p>New ideas, experiments, and products take shape here over time.</p>
+        <div class="actions">
+          <a class="btn" href="https://github.com/afield-studio" rel="noopener"><span class="ext">Follow on GitHub</span></a>
+          <a class="text-link" href="mailto:sebiolmos19@gmail.com">sebiolmos19@gmail.com</a>
+        </div>
       </div>
     </div>
   </section>
@@ -185,6 +152,7 @@
           <li><a href="#work">Work</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="https://github.com/afield-studio" rel="noopener">GitHub</a></li>
+          <li><a href="mailto:sebiolmos19@gmail.com">Email</a></li>
         </ul>
       </div>
       <div>

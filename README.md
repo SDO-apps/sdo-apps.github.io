@@ -1,11 +1,31 @@
+<img src="assets/img/afield-icon.svg" alt="" width="48" height="48" />
+
 # Afield Studio
 
-Company site and app legal pages, hosted on GitHub Pages.
+The website for Afield Studio, an independent product studio. Live at **[afield-studio.github.io](https://afield-studio.github.io)**.
 
-## Adding an app
+It's a static site (plain HTML, CSS, and a little JavaScript) served by GitHub Pages from `main`. There's no build step.
 
-1. Copy `pillars/` to `<app>/` (lowercase, no spaces) and rewrite `privacy/index.html` and `terms/index.html` for that app.
-2. Add a `.project` entry for it under **Work** in `index.html`, linking `<app>/privacy/` and `<app>/terms/`.
-3. Use `https://<this site>/<app>/privacy/` as the app's privacy policy URL in App Store Connect and in the app.
+## Structure
 
-All pages share `assets/css/site.css`; legal pages use the `.doc-layout` / `.doc` styles so every app's pages look the same.
+```
+index.html          Homepage: hero, work, about, closing
+pillars/privacy/    Pillars privacy policy
+pillars/terms/      Pillars terms of use
+assets/css/site.css Shared styles for every page
+assets/js/main.js   Header border on scroll, section reveal, footer year
+assets/img/         Studio mark and product icons
+```
+
+## Preview locally
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open http://localhost:8000.
+
+## Adding a product
+
+1. Add an `<article class="project">` to the Work section in `index.html`, with its icon in `assets/img/`.
+2. If it needs legal pages, copy `pillars/` to `<product>/`, rewrite the text, and link them from the project and the footer.
